@@ -1,0 +1,34 @@
+/**
+ ********************************
+ *      CLOUD YAZILIM           *
+ *  AÇIK KAYNAK TEMA MOTORU     *
+ ********************************
+ * 24/10/2014
+ * Bu sistem cloudyazilim.com tarafından açık kaynak olarak kodlanmıştır. Hiçbir gelir gözetilmemiştir.
+ * Tamamen kaynağı açık olarak sizlerin kullanımına sunulmuştur. Sistemi kullanmanızdan ötürü hiçbir şekilde
+ * ücret ödemeniz gerekmemektedir ve hiç bir şekilde de ücret talep edilmemektedir.
+ * Aksi bir durumda lütfen bizimle iletişime geçiniz.
+ * Referans gösterilerek kullanılmasında hiçbir sakınca yoktur.
+ * Ayrıca harcanan emeği göz önünde bulundurarak sayfa üst açıklamalarında bulununa bu içeriği silmeyiniz.
+ * Açık kaynak olarak kodlanan sisteme destek vererek güncel bir tema motoru yazılmasında sizinde
+ * katkınız olabilir.
+ * Sistemi indirdiğiniz ve kullandığınız için teşekkür eder sizleri aramızda görmekten mutluluk duyarız.
+ *
+ * İyi çalışmalar.
+ ***************************
+ *      CLOUD YAZILIM      *
+ ***************************
+ *
+ *  Cloud Tema Sistemini Kullanırken Mutlaka Lisans Dosyasını ftpde ki dosyaların bulunduğu ana dizine atmalısınız
+ *  Olası bir kontrol sırasında lisans dosyasına ulaşılamayan site yöneticilerine uyarı gidecektir. Bu yüzden
+ *  Lisans dosyası üzerinde bir değişiklik yapmadan kullanmanız gerekmektedir.
+ *  İlginiz ve Anlayışınızdan ötürü teşekkür ederiz.
+ *
+ *  http://www.cloudyazilim.com
+ *
+ *
+ *                          Tema Motoru Hazırlanırken Faydalanılan Kaynak Linkler
+ * +--------------------------------------------------------------------------------------------------------------+
+ *  Dosya Yol Bilgileri Kaynak :      http://www.r10.net/php/356078-path-bulma.html
+ * +--------------------------------------------------------------------------------------------------------------+
+*/

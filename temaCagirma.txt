@@ -1,0 +1,6 @@
+     tema sistemini çağırıyoruz
+	 $tema = new temaSistem(TEMA_YOL.'default/view/index/index.html');
+
+     $tema->veriEkle("TEMA_FULL_YOL",TEMA_FULL_YOL);
+     $tema->veriEkle("icerik"," içerik alanı");
+     $tema->goster();

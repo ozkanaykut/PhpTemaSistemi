@@ -1,0 +1,21 @@
+RewriteEngine On
+rewritecond %{http_host} ^besteknoloji.com [nc]
+rewriterule ^(.*)$ http://www.besteknoloji.com/$1 [r=301,nc] 
+
+# Yeni bir yönlendirme kuralı ekliyoruz
+RewriteRule ^home index.php [NC,QSA]
+RewriteRule ^pages/([0-9a-zA-Z-_]+)$ index.php?klasor=$1 [L,QSA]
+RewriteRule ^pages/([0-9a-zA-Z-_]+)/([0-9a-zA-Z-_]+)$ index.php?klasor=$1&sayfa=$2 [L,QSA]
+RewriteRule ^pages/([0-9a-zA-Z-_]+)/([0-9a-zA-Z-_]+)/([0-9a-zA-Z-_]+)$ index.php?klasor=$1&sayfa=$2&veri=$3 [L,QSA]
+RewriteRule ^kategories/([0-9a-zA-Z-_]+)$ katalog_urls1.php?sefs=$1 [L,QSA]
+RewriteRule ^urunler/([0-9a-zA-Z-_]+)$ products_urls1.php?sefs=$1 [L,QSA]
+#RewriteRule ^kategories/([0-9a-zA-Z-_]+)$  katalog_urls1.php?sefs=$1 [L,QSA]
+
+#ErrorDocument 401 http://www.nidabilisim.com?Do=401
+#ErrorDocument 403 http://www.nidabilisim.com?Do=403
+#ErrorDocument 404 http://www.nidabilisim.com?Do=404
+
+Options -Indexes
+
+#ErrorDocument 403 http://www.besteknoloji.com.tr
+#ErrorDocument 404 http://www.besteknoloji.com.tr
